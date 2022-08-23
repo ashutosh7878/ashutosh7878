@@ -20,7 +20,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: #080808;
+    background: rgb(20, 19, 19);
 }
 
 ::-webkit-scrollbar-thumb {
