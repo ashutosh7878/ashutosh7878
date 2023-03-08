@@ -799,4 +799,30 @@ footer span a:hover {
         font-size: 23px;
         line-height: 38px;
     }
+     div {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        h1 {
+            font-size: 60px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 0px #000000;
+        }
+        
+        #holi-bg {
+            width: 50%;
+            height: 50%;
+            top: 10;
+            left: 10;
+            z-index: -1;
+        }
 }
