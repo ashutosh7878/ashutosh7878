@@ -288,6 +288,59 @@
     <!-- footer section start -->
     <footer>
         <span>Created By <a href="ashutosh7878.github.io/ashutoshyadav/">Ashutosh Yadav</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+        
+    <style>
+        div {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        h1 {
+            font-size: 60px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 0px #000000;
+        }
+        
+        #holi-bg {
+            width: 50%;
+            height: 50%;
+            top: 10;
+            left: 10;
+            z-index: -1;
+        }
+    </style>
+
+
+
+    <div>
+        <h1>Happy Holi!</h1>
+        <h2><br>"Wishing you a colorful and joyous Holi!"<br> "May the colors of Holi fill your life with happiness and love!<br> "Let's make this Holi memorable with fun, laughter, and lots of colors!<br> "On this Holi, let's spread love and harmony, and
+            forget all our differences!<br> "Happy Holi! May your life be as colorful as the rainbow!"</h2>
+
+        <img id="holi-bg" src="holi.jpg">
+    </div>
+    <script>
+        // List of background colors
+        var colors = ["red", "green", "blue", "yellow", "pink", "purple", "orange"];
+
+        // Set a timer to change the background color every 3 seconds
+        setInterval(function() {
+            // Get a random color from the list
+            var color = colors[Math.floor(Math.random() * colors.length)];
+
+            // Change the background color
+            document.body.style.backgroundColor = color;
+        }, 150); // Change every 3 seconds
+    </script>
+
     </footer>
 
     <script src="script.js"></script>
