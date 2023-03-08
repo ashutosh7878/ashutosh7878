@@ -69,8 +69,7 @@ $(document).ready(function() {
                 nav: false
             }
         }
-    });
-     // List of background colors
+        // List of background colors
         var colors = ["red", "green", "blue", "yellow", "pink", "purple", "orange"];
 
         // Set a timer to change the background color every 3 seconds
@@ -81,4 +80,6 @@ $(document).ready(function() {
             // Change the background color
             document.body.style.backgroundColor = color;
         }, 150); // Change every 3 seconds
+    });
+     
 });
