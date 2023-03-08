@@ -70,4 +70,15 @@ $(document).ready(function() {
             }
         }
     });
+     // List of background colors
+        var colors = ["red", "green", "blue", "yellow", "pink", "purple", "orange"];
+
+        // Set a timer to change the background color every 3 seconds
+        setInterval(function() {
+            // Get a random color from the list
+            var color = colors[Math.floor(Math.random() * colors.length)];
+
+            // Change the background color
+            document.body.style.backgroundColor = color;
+        }, 150); // Change every 3 seconds
 });
