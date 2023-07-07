@@ -203,7 +203,7 @@ section .title::after {
 .home {
     display: block;
     background: url("images/background\ imeage\ 3.jpeg") no-repeat center;
-    height: 100vh;
+    height: 500px;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -446,11 +446,11 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+    width: 70%;
 }
 
 .skills-content .right .js::before {
-    width: 80%;
+    width: 70%;
 }
 
 .skills-content .right .php::before {
@@ -555,7 +555,7 @@ section .title::after {
 }
 
 .contact .contact-content .left p {
-    text-align: justify;
+    text-align: center;
 }
 
 .contact .contact-content .left .icons {
